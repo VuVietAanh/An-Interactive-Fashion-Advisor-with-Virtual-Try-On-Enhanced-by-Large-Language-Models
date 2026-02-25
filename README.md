@@ -38,30 +38,30 @@ Built a cost-efficient diffusion-based try-on system with semantic guidance.
 
 🔹 Semantic Control Layer
 
-Used CLIP to classify garment regions (upper/lower body)
+    Used CLIP to classify garment regions (upper/lower body)
 
-Used BLIP to generate garment captions for semantic conditioning
+    Used BLIP to generate garment captions for semantic conditioning
 
 → Improves inpainting consistency and reduces ambiguity.
 
 🔹 Advanced Mask Optimization
 
-Replaced CNN segmentation with SegFormer (Transformer-based) for precise garment boundary extraction
+    Replaced CNN segmentation with SegFormer (Transformer-based) for precise garment boundary extraction
 
-Applied Dilation Masking (20×20 kernel) to handle size mismatch and improve loose-fit realism
+    Applied Dilation Masking (20×20 kernel) to handle size mismatch and improve loose-fit realism
 
 → Higher boundary quality and better garment-body adaptation.
 
 🔹 Diffusion Generation
 
-Integrated CatVTON (lightweight inpainting diffusion model)
+    Integrated CatVTON (lightweight inpainting diffusion model)
 
-Tuned inference parameters for balance between realism and compute cost
+    Tuned inference parameters for balance between realism and compute cost
 
 ### Hybrid Fallback Strategy
 
-Default: Lightweight in-house VTO pipeline (cost-efficient, controllable)
+🔹 Default: Lightweight in-house VTO pipeline (cost-efficient, controllable)
 
-Fallback: Advanced APIs (IDM-VTON / OOTDiffusion) for complex poses or occlusions
+🔹 Fallback: Advanced APIs (IDM-VTON / OOTDiffusion) for complex poses or occlusions
 
-→ Practical engineering trade-off between cost, latency, and quality.
+=> Practical engineering trade-off between cost, latency, and quality.
