@@ -3,13 +3,13 @@
 
 Built an end-to-end Conversational Recommender System (CRS) integrated with a diffusion-based Virtual Try-On (VTO) pipeline, enabling users to:
 
-Search fashion products via natural language
+🔹Search fashion products via natural language
 
-Refine results through multi-turn dialogue
+🔹Refine results through multi-turn dialogue
 
-Virtually try garments on real human images
+🔹Virtually try garments on real human images
 
-The system combines LLM fine-tuning, multimodal retrieval, and diffusion-based image generation in a unified architecture.
+=> The system combines LLM fine-tuning, multimodal retrieval, and diffusion-based image generation in a unified architecture.
 
 ## Key Contributions
 ### Conversational Recommender System
