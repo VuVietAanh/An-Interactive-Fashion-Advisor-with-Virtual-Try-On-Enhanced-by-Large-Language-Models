@@ -16,19 +16,19 @@ The system combines LLM fine-tuning, multimodal retrieval, and diffusion-based i
 
 🔹 Designed a multimodal semantic retrieval engine using:
 
->🔹 Sentence embeddings (SBERT)
+> Sentence embeddings (SBERT)
 
->🔹 Image-text alignment (CLIP)
+> Image-text alignment (CLIP)
 
->🔹 FAISS for scalable similarity search
+> FAISS for scalable similarity search
 
 🔹 Fine-tuned Phi-2 with LoRA to:
 
->🔹 Support multi-turn dialogue
+> Support multi-turn dialogue
 
->🔹 Maintain conversation context
+> Maintain conversation context
 
->🔹 Perform constraint-aware filtering (color, type, style, price)
+> Perform constraint-aware filtering (color, type, style, price)
 
 → Result: Natural, constraint-aware product search instead of keyword matching.
 
