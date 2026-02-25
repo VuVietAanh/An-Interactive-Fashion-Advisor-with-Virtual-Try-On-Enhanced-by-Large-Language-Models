@@ -11,8 +11,8 @@ Virtually try garments on real human images
 
 The system combines LLM fine-tuning, multimodal retrieval, and diffusion-based image generation in a unified architecture.
 
-Key Contributions
-Conversational Recommender System
+## Key Contributions
+### Conversational Recommender System
 
 Designed a multimodal semantic retrieval engine using:
 
@@ -32,7 +32,7 @@ Perform constraint-aware filtering (color, type, style, price)
 
 → Result: Natural, constraint-aware product search instead of keyword matching.
 
-2️⃣ Virtual Try-On Pipeline (Optimized Lightweight Architecture)
+### Virtual Try-On Pipeline (Optimized Lightweight Architecture)
 
 Built a cost-efficient diffusion-based try-on system with semantic guidance.
 
@@ -58,7 +58,7 @@ Integrated CatVTON (lightweight inpainting diffusion model)
 
 Tuned inference parameters for balance between realism and compute cost
 
-3️⃣ Hybrid Fallback Strategy
+### Hybrid Fallback Strategy
 
 Default: Lightweight in-house VTO pipeline (cost-efficient, controllable)
 
